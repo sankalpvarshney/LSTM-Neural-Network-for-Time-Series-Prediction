@@ -6,7 +6,14 @@ LSTM built using the Keras Python package to predict time series steps and seque
 
 [Video on the workings and usage of LSTMs and run-through of this code](https://www.youtube.com/watch?v=2np77NOdnwk)
 
-## Requirements
+## Installations
+
+Create python virtual environment for avoiding the version conflictions.
+
+```bash
+conda create --prefix ./env python=3.8 -y
+conda activate ./env
+```
 
 Install requirements.txt file to make sure correct versions of libraries are being used.
 
@@ -15,6 +22,22 @@ Install requirements.txt file to make sure correct versions of libraries are bei
 * Numpy
 * Keras 
 * Matplotlib 
+
+```bash
+pip install -r requirements.txt
+```
+
+
+## Usage
+
+Modify the config.json file to update the parameters or hyper-parameters of the dataset part or for training part.
+
+For training and inferencing execute the below code over terminal.
+```bash
+python run.py
+```
+
+## Output 
 
 Output for sine wave sequential prediction:
 
