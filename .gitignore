@@ -1,0 +1,6 @@
+*.pyc
+.idea/
+env
+saved_models
+__pycache__
+demo.ipynb
